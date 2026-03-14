@@ -1,2 +1,0 @@
-# PORTFOLIO
-# second-project

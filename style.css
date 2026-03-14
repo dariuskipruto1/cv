@@ -167,10 +167,14 @@ header{
 #project ul li a{
     text-decoration: none;
     color: white;
-    box-shadow: 2px 5px 11px black;
+    display: grid;
+    grid-template-columns: min-content;
+    box-shadow: inset 2px 5px 11px black;
     padding: 10px;
     margin: 5px;
     text-align: center;
+    text-wrap: normal;
+
 
 }
 #project ul li a:hover{
