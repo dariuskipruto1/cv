@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+
+}
+.container{
+    background-color: gray;
+    min-height: 100%;
+    max-width: 100%;
+}
+header{
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0px 2px 3px;
+    position: sticky;
+    color: black;
+
+}
+.header-content h1{
+    color: gold;
+    text-shadow: 5px 7px 13px black;
+    text-overflow: inherit;
+    box-shadow: 2px 4px 30px black;
+    border-radius: 4px 4px 4px 4px;
+    padding:15px ;
+
+}
+.header-content nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 15px;
+    list-style: none;
+}
+.header-content nav ul li{
+    box-shadow: 3px 5px 11px black;
+    padding: 10px;
+    list-style: none;
+}
+.header-content nav ul a{
+    text-decoration: none;
+    font-size: 28px;
+    color:white;
+    text-shadow: 2px 4px 6px black;
+    list-style: none;
+}
+.header-content nav ul a:hover{
+    color:blue;
+    cursor: pointer;
+}
+.header-content nav ul a:active{
+    text-decoration: dashed;
+    color: black;
+}
+#about{
+    max-width: 100%;
+    margin: 15px;
+    text-align: center;
+    word-wrap: normal;
+    background: rgb(136, 113, 113);
+    box-shadow: 2px 5px 11px black;
+    padding: 10px;}
+#about h2{
+    text-transform: capitalize;
+    text-shadow: 2px 3px 13px black;
+    padding: 10px;
+
+}
+#about p{
+    word-wrap:normal;
+    padding: 15px;
+}
+#services{
+    text-align: center;
+    margin: 15px;
+    box-shadow:2px 5px 11px black;
+    background-color: rgb(155, 106, 106);
+
+}
+#services ul li{
+    list-style: none;
+}
+#services:hover{
+    text-shadow: none;
+}
+#services h2{
+    color: black;
+    margin-top: 10px;
+    padding-top:10px ;
+    padding-bottom: 5px;
+
+}
+#services p{
+    word-wrap: normal;
+}
+#skills{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction:row ;
+    background-color: rgb(139, 99, 99);
+    margin-top: 15px;
+    padding-top: 15px;
+    box-shadow: 2px 5px 11px black;
+    flex-wrap: wrap;
+}
+#webDevelopment ,#mobileAppDevelopment ,#uxDesign{
+    margin: 15px;
+    padding: 10px;
+    word-wrap: normal;
+    padding: 10px;
+    box-shadow: 2px 5px 11px black;
+}
+#cv{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 15px;
+    background-color: rgb(130, 108, 108);
+    box-shadow: 2px 5px 11px black;
+    padding: 10px;
+}
+#cv a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+
+}
+#cv a:hover{
+    text-decoration: dashed;
+
+    color: blue;
+   
+}
+.cv{
+    box-shadow: 2px 5px 11px black;
+    padding: 30px;
+}
+#project{
+    text-align: center;
+    background-color: rgb(133, 108, 108);
+    box-shadow: 2px 5px 11px black;
+    padding: 32px;
+    margin: 15px;
+
+}
+#project ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    box-shadow: 2px 5px 11px black;
+    padding: 32px;
+    
+}
+#project h2 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+}
+#project ul li a{
+    text-decoration: none;
+    color: white;
+    box-shadow: 2px 5px 11px black;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+
+}
+#project ul li a:hover{
+    color: blue;
+}
+#contact{
+    background-color: rgb(163, 122, 122);
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 2px 4px 11px black;
+}
+#contact p a{
+  color: white;
+  text-decoration: none;
+}
+#contact p a:hover{
+    color: blue;
+}
+.contacts{
+    box-shadow: 3px 5px 11px black;
+    padding: 32px;
+    margin: 10px;
+}
+#footer{
+    text-align: center;
+    margin: 15px;
+    background-color: gray;
+    box-shadow: 2px 5px 11px black;
+    padding: 15px;
+    color: black;
+
+}
+#footer p{
+    box-shadow: 2px 5px 11px black;
+    padding: 32px;
+    margin: 15px;
+}
